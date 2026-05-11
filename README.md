@@ -21,12 +21,6 @@ O projeto foi desenvolvido para provisionar uma infraestrutura na nuvem e automa
 *   **`/codigoTerraform`**: Código Terraform para provisionamento da infraestrutura no Azure.
 *   **`azure-pipelines.yml`**: Pipeline principal do Azure DevOps, com os estágios de CI/CD.
 
-##  Como Executar a Pipeline (Próximos Passos)
-
-1.  A pipeline está associada ao branch `main`.
-2.  Para executá-la no Azure DevOps, é necessário um agente. Em contas gratuitas, pode ser necessário solicitar o **"Free Parallelism Grant"** para que a Microsoft libere a execução.
-3.  Uma vez liberada, a pipeline será acionada automaticamente a cada novo commit.
-
 ##  Tecnologias Utilizadas
 
 *   **Provedor Cloud:** Microsoft Azure
